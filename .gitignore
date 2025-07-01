@@ -1,11 +1,27 @@
 # Ignore dataset files and folders
+data/
+processed_audio/
+train_dataset_processed/
+val_dataset_processed/
+test_dataset_processed/
 fpt_train.csv
 fpt_val.csv
 fpt_test.csv
-data/
-processed_audio/
 # Ignore cache and model outputs
 whisper-vi-finetuned/
 .cache/
 *.arrow
 *.tmp
+# Ignore model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.onnx
+*.pb
+*.tflite
+*.npz
+*.npy
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
