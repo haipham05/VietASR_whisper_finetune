@@ -1,0 +1,10 @@
+streamlit
+transformers
+torch
+soundfile
+audiorecorder
+librosa
+noisereduce
+scikit-learn
+pandas
+numpy
